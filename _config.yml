@@ -1,6 +1,6 @@
 # Site
 title: liguochuan00's Blog
-subtitle: ''
+subtitle: '记录技术、项目和学习笔记'
 description: 'A personal technical blog powered by Hexo.'
 keywords: 技术博客,个人博客,Hexo
 author: liguochuan00
@@ -80,7 +80,7 @@ exclude:
 ignore:
 
 # Extensions
-theme: redefine
+theme: fluid
 
 # Deployment is handled by GitHub Actions.
 deploy:

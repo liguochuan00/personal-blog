@@ -1,0 +1,120 @@
+# Theme Fluid overrides
+# Docs: https://hexo.fluid-dev.com/docs/guide/
+
+favicon: /img/fluid.png
+apple_touch_icon: /img/fluid.png
+tab_title_separator: " - "
+
+force_https: true
+
+dark_mode:
+  enable: true
+  default: auto
+
+navbar:
+  blog_title: "liguochuan00"
+  ground_glass:
+    enable: true
+    px: 3
+    alpha: 0.75
+  menu:
+    - { key: "home", link: "/", icon: "iconfont icon-home-fill" }
+    - { key: "archive", link: "/archives/", icon: "iconfont icon-archive-fill" }
+    - { key: "category", link: "/categories/", icon: "iconfont icon-category-fill" }
+    - { key: "tag", link: "/tags/", icon: "iconfont icon-tags-fill" }
+    - { key: "about", link: "/about/", icon: "iconfont icon-user-fill" }
+
+search:
+  enable: false
+
+index:
+  banner_img: /img/default.png
+  banner_img_height: 80
+  banner_mask_alpha: 0.35
+  slogan:
+    enable: true
+    text:
+      - 技术博客
+      - 学习笔记
+      - 项目记录
+  auto_excerpt:
+    enable: true
+  post_url_target: _self
+  post_meta:
+    date: true
+    category: true
+    tag: true
+
+post:
+  banner_img: /img/default.png
+  banner_img_height: 55
+  banner_mask_alpha: 0.35
+  meta:
+    author:
+      enable: false
+    date:
+      enable: true
+      format: "YYYY-MM-DD"
+    wordcount:
+      enable: false
+    min2read:
+      enable: false
+    views:
+      enable: false
+  updated:
+    enable: false
+  toc:
+    enable: true
+    placement: right
+  copyright:
+    enable: true
+    license: "BY-NC-SA"
+    author:
+      enable: true
+    post_date:
+      enable: true
+      format: "YYYY-MM-DD"
+    update_date:
+      enable: false
+  comments:
+    enable: false
+
+archive:
+  banner_img: /img/default.png
+  banner_img_height: 45
+  banner_mask_alpha: 0.35
+
+category:
+  banner_img: /img/default.png
+  banner_img_height: 45
+  banner_mask_alpha: 0.35
+
+tag:
+  banner_img: /img/default.png
+  banner_img_height: 45
+  banner_mask_alpha: 0.35
+
+about:
+  banner_img: /img/default.png
+  banner_img_height: 45
+  banner_mask_alpha: 0.35
+  avatar: /img/avatar.png
+  name: "liguochuan00"
+  intro: "记录技术、项目和学习笔记"
+  icons:
+    - { class: "iconfont icon-github-fill", link: "https://github.com/liguochuan00", tip: "GitHub" }
+
+footer:
+  content: '
+    <a href="https://hexo.io" target="_blank" rel="nofollow noopener"><span>Hexo</span></a>
+    <i class="iconfont icon-love"></i>
+    <a href="https://github.com/fluid-dev/hexo-theme-fluid" target="_blank" rel="nofollow noopener"><span>Fluid</span></a>
+  '
+  statistics:
+    enable: false
+
+web_analytics:
+  enable: false
+
+lazyload:
+  enable: true

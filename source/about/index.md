@@ -1,6 +1,7 @@
 ---
 title: 关于
 date: 2026-07-09 15:00:00
+layout: about
 ---
 
 你好，我是 liguochuan00。
