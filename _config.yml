@@ -2,7 +2,7 @@
 title: liguochuan00's Blog
 subtitle: ''
 description: 'A personal technical blog powered by Hexo.'
-keywords:
+keywords: 技术博客,个人博客,Hexo
 author: liguochuan00
 language: zh-CN
 timezone: Asia/Shanghai
@@ -80,7 +80,7 @@ exclude:
 ignore:
 
 # Extensions
-theme: landscape
+theme: redefine
 
 # Deployment is handled by GitHub Actions.
 deploy:

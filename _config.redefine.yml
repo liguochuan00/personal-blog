@@ -1,0 +1,96 @@
+# Theme Redefine overrides
+# Docs: https://redefine-docs.ohevan.com
+
+info:
+  title: liguochuan00's Blog
+  subtitle: 记录技术、项目和学习笔记
+  author: liguochuan00
+  url: https://liguochuan00.github.io/personal-blog
+
+colors:
+  primary: "#2563eb"
+  default_mode: light
+
+global:
+  website_counter:
+    enable: false
+    site_pv: false
+    site_uv: false
+    post_pv: false
+  open_graph:
+    enable: true
+    image: https://liguochuan00.github.io/personal-blog/images/redefine-og.webp
+    description: A personal technical blog powered by Hexo.
+
+home_banner:
+  enable: true
+  title: liguochuan00's Blog
+  subtitle:
+    text:
+      - 技术博客
+      - 学习笔记
+      - 项目记录
+    hitokoto:
+      enable: false
+  social_links:
+    enable: false
+    links:
+      - icon: github
+        url:
+      - icon: twitter
+        url:
+      - icon: email
+        url:
+      - icon: telegram
+        url:
+      - icon: /images/custom-icon.svg
+        url:
+
+navbar:
+  links:
+    Home:
+      path: /
+      icon: fa-regular fa-house
+    Archives:
+      path: /archives
+      icon: fa-regular fa-archive
+    Tags:
+      path: /tags
+      icon: fa-regular fa-tags
+    Categories:
+      path: /categories
+      icon: fa-regular fa-folder
+    About:
+      path: /about
+      icon: fa-regular fa-user
+  search:
+    enable: false
+
+home:
+  sidebar:
+    announcement: 欢迎来到我的个人技术博客。
+    links:
+      Archives:
+        path: /archives
+        icon: fa-regular fa-archive
+      Tags:
+        path: /tags
+        icon: fa-regular fa-tags
+      Categories:
+        path: /categories
+        icon: fa-regular fa-folder
+
+articles:
+  word_count:
+    enable: false
+  copyright:
+    enable: true
+    default: cc_by_nc_sa
+
+comment:
+  enable: false
+
+footer:
+  runtime: false
+  start: 2026/07/09 00:00:00
+  statistics: false
